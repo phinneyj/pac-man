@@ -1,0 +1,37 @@
+html {
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #19334C;
+}
+
+body {
+    background-color: #D8D88C;
+    width: 600px;               /* Force page content to exactly 600px width */
+    margin: 0 auto;             /* Top & bottom margin 0; left & right margin 
+                                   equally use up remaining page width */
+    padding: 0 20px 20px 20px;  /* Keep text away from sides and bottom */
+    border: 5px solid black;
+}
+
+h1 {
+    font-size:  60px;           /* Use PIXELS for ALL sizes as a rule */
+    text-align:  center;
+    margin: 0;
+    padding: 30px 0 20px 0;
+}
+
+h2 {
+    font-size:  24px;
+}
+
+p, ul {
+    font-size:  16px;  
+    line-height: 1.5;           /* Line height 1.5-2 for readability */
+    letter-spacing: 1px;        /* Additional letter spacing for readability */
+}
+
+#img-pacman {
+    width: 320px;
+    height: 234px;
+    display: block;
+    margin: 0 auto;
+}
